@@ -1,0 +1,326 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../font/Helvetica.ttf');
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../font/ss.woff');
+}
+@font-face {
+    font-family: 'WorkSans-Regular.ttf';
+    src: url(../font/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Lato-Regular.ttf';
+    src: url(../font/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: 'GothamBook.otf';
+    src: url(../font/GothamBook.otf);
+}
+.contact_session .contact_us{
+  margin: 100px 0 100px 0;
+
+}
+/*-----------------CONTACT UPPERSIDE----------------*/
+.hero .contact__heading {
+  position:absolute;
+   bottom:120px;
+  left: 0%;
+  max-width:1100px;
+  margin:0;
+  font-size:120px;
+  font-weight:600;
+  line-height:1;
+  color:black !important;
+  text-transform: uppercase;
+  font-family: 'ss.woff';
+  /* text-transform:lowercase; */
+  -webkit-transform:translateY(43%);
+  transform:translateY(43%)
+}
+@media screen AND (max-width: 650px){
+  .hero .contact__heading {
+    position:absolute;
+    top: -600px;
+    left: 20px;
+    max-width:1000px;
+    margin:0;
+    font-size:60px;
+  }
+}
+@media screen AND (max-width: 425px){
+  .hero .contact__heading {
+    position:absolute;
+    top: -650px;
+    left: 20px;
+    max-width:1000px;
+    margin:0;
+    font-size:50px;
+  }
+}
+.contact_session .row-detail{
+  margin: 90px 0 80px 0;
+}
+.contact_session .contact__para{
+  font-size: 50px;
+  font-weight: 600;
+  padding-left: 40px;
+  line-height: 1.1;
+  font-family: 'Helvetica';
+}
+@media screen AND (max-width: 768px){
+  .contact_session .contact__para{
+    font-size: 40px;
+    padding-left: 20px;
+  }
+}
+@media screen AND (max-width: 425px){
+  .contact_session .contact__para{
+    font-size: 30px;
+    padding-left: 10px;
+  }
+}
+.contact_session .contact_enquries{
+   margin: 100px 0 0px 0;
+}
+.contact_session .touch{
+  position: relative;
+  font-size: 40px;
+  font-weight: 700;
+	color: #fff;
+font-family: 'Helvetica';
+}
+.contact_session .touch::after {
+  content: "";
+  display: block;
+	color: #fff;
+  width: 150px;
+  height: 2px;
+  background: #000000;
+  left: 0;
+  bottom: -10%;
+  position: absolute;
+	
+}
+.contact_session .work{
+  font-size: 25px;
+  font-weight: 600;
+	color: #fff;
+  font-family: 'Helvetica';
+}
+.contact_session .column-1 .mail-id{
+  position: relative;
+  top: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Helvetica';
+}
+.contact_session .column-2 .address{
+  font-size: 40px;
+  font-weight: 700;
+	color: #fff;
+ font-family: 'Helvetica';
+  position: relative;
+}
+@media screen AND (max-width: 768px){
+  .contact_session .column-2 .address{
+    padding-top: 40px; 
+  }
+}
+@media screen AND (max-width: 425px){
+  .contact_session .column-2 .address{
+    padding-top: 40px; 
+  }
+}
+.contact_session .column-2 .address::after{
+  content: "";
+  display: block;
+  width: 100px;
+	color: #fff;
+  height: 2px;
+  background: #000000;
+  left: 0;
+  bottom: -10%;
+  position: absolute;
+}
+.contact_session .column-2 .address_brief{
+  position: relative;
+  top: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Helvetica';
+}
+.contact_session .column-3 .quick--contact{
+  font-size: 40px;
+  font-weight: 700;
+	 color: #fff;
+  font-family: 'Helvetica';
+  position: relative;
+}
+@media screen AND (max-width: 768px){
+  .contact_session .column-3 .quick--contact{
+    padding-top: 40px;
+  }
+}
+@media screen AND (max-width: 425px){
+  .contact_session .column-3 .quick--contact{
+    padding-top: 20px;
+  }
+}
+.contact_session .column-3 .quick--contact::after{
+  content: "";
+  display: block;
+	color: #fff !important;
+  width: 180px;
+  height: 2px;
+  background: #000000;
+  left: 0;
+  bottom: -10%;
+  position: absolute;
+}
+
+.contact_session .column-3 .phone--number a{
+  position: relative;
+  top: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Helvetica';
+}
+/*-----------------CONTACT FORM----------------*/
+.contact-wrap {
+  margin-bottom: 100px;
+	
+}
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+form p {
+  margin: 0;
+}
+.full-width {
+  grid-column: 1 / 3;
+}
+.form-input:focus,
+textarea:focus{
+  outline: 1.5px solid #2c27e3;
+}
+
+.form-input,
+textarea {
+  width: 100%;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+.submit-btn,
+.form-input,
+textarea {
+  padding: 1em;
+}
+.submit-btn {
+  background: yellow;
+  border: 1px solid #000000;
+  color: #2c27e3;
+  border-radius: 5px;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-family: 'Helvetica';
+  cursor: pointer;
+  float: left;
+}
+.reset-btn {
+  background: blue;
+  border: 1px solid #000000;
+  color: yellow;
+  border-radius: 5px;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: 'Helvetica';
+  cursor: pointer;
+  float: left;
+}
+.reset-btn:hover {
+  background: yellow;
+  color: blue;
+}
+button:hover, .submit-btn:hover,
+button:focus , .submit-btn:focus{
+  background: #2c27e3;
+  color: #FFFE55;
+  border: 1px solid #2c27e7;
+}
+.error {
+  color: #2c27e3;
+}
+.view-all {
+  background: black;
+  border: 1px solid #000000;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-family: 'Helvetica';
+  cursor: pointer;
+  float: right;
+}
+
+.view-all:hover {
+  background: #2c27e3;
+  border: 1px solid #000000;
+  color:yellow;
+  border-radius: 5px;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-family: 'Helvetica';
+  cursor: pointer;
+  float: right;
+}
+
+
+.taxt {
+  position: relative;
+  padding: 0px;
+  transition: 0.2s;
+}
+
+.taxt::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #ddd;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.taxt:hover::after {
+  width: 100%;
+  left: 0;
+		
+}
