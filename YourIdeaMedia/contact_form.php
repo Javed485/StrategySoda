@@ -17,4 +17,4 @@ if(isset($_POST['submit'])){
     else{
         echo"Something went wrong!";
     }
-?>
+}
