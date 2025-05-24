@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../font/Helvetica.ttf');
+}
+@font-face {
+  font-family: 'ss.woff';
+  src: url('../font/ss.woff');
+}
+@font-face {
+    font-family: 'WorkSans-Regular.ttf';
+    src: url(../font/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Lato-Regular.ttf';
+    src: url(../font/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: 'GothamBook.otf';
+    src: url(../font/GothamBook.otf);
+}
+.service_session .service_us{
+  margin: 120px 0 50px 0;
+	
+}
+/*----------------SERVICE INFORMATION----------------*/
+.service_session .service_us .clb-title{
+font-size: 150px;
+	padding-top: 80px;
+	letter-spacing: 2px;
+  margin: 0;
+  color: #fff;
+  font-family: 'ss.woff';
+  text-align: left;
+  line-height: 1;
+  text-transform: uppercase;
+/*	 background: url('../images/S2.jpg') no-repeat right center;*/
+		
+}
+@media screen AND (max-width: 768px){
+  .service_session .service_us .clb-title{
+    font-size: 58px;
+	  color: #000;
+  }
+}
+@media screen AND (max-width: 425px){
+  .service_session .service_us .clb-title{
+    font-size: 25px;
+	   color: #000;
+	
+	 
+	  
+  }
+}
+@media screen AND (max-width: 375px){
+  .service_session .service_us .clb-title{
+    font-size: 25px;
+	   color: #000;
+	
+  }
+}
+.service_session .service_part{
+    margin-top: 50px;
+}
+.service_session .features__text1{
+    color: rgb(255, 255, 255);
+}
+
+
+
+/*---------------SECOND PAGE--------------*/
+/* .service_session .service_us .clb-title{
+  font-size: 130px;
+  margin: 0;
+  font-family: 'ss.woff';
+} */
+.service_session .photo_service{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 700;
+    font-family: 'GothamBook.otf';
+}
+.slide_section{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    border: 2px solid #2c27e7;
+    margin-bottom: 120px;
+    /*grid-gap: 10px;*/
+}
+.slide_section .slide{
+    position: relative;
+    background-color: #0f0;
+    /*height: 100%;*/
+    flex: 1;
+    border-right: 2px solid #2c27e7;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+.slide_section .slide:last-child{
+    border-right: none;
+}
+.slide_section .slide:hover{
+    flex-grow: 2;
+}
+.slide_section .slide:nth-child(1){
+    background: url('../images/poster.jpg');
+    background-position: center center;
+}
+.slide_section .slide:nth-child(2){
+    background: url('../images/poster.jpg');
+    background-position: center center;
+}
+.slide_section .slide .content{
+    position: absolute;
+    bottom: 0;
+    margin: 40px;
+    padding: 30px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'GothamBook.otf';
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(100px);
+}
+.slide_section .slide:hover .content{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    transform: translateY(0);
+    cursor: pointer;
+}
+
+
+.features__text1 {
+ margin-bottom:40px;
+ font-size:40px;
+ line-height:1.5;
+ color:#fff
+}
+.hide{
+	display: none;
+color: #fff;
+		margin: 0 0 120px 0;
+	}
+@media screen and (max-width: 1700px) {
+	.features__text1 {
+  max-width:100%;
+	 font-size:30px !important;
+ }
+		.hide{
+	display: none;
+color: #fff;
+		margin: 0 0 120px 0;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.features__text1 {
+  max-width:100%;
+	 font-size:20px !important;
+ }
+}
+@media screen and (max-width:992px) {
+ .features__text1 {
+  max-width:100%;
+	 font-size:18px !important;
+ }
+	.hide{
+	display: none;
+color: #fff;
+		margin: 0 0 120px 0;
+	
+}
+}
+@media screen and (max-width:600px) {
+	.hide{
+	display:inherit;
+		margin: 0 0 40px 0;
+	
+}
+	.features__text1 {
+ font-size:18px !important;
+
+}
+
+}
+
