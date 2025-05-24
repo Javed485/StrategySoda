@@ -1,0 +1,243 @@
+/*----------HEADER----------
+  --------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#row-1{
+	border: 0.5px solid lightgrey;
+}
+#row-1 a{
+	border-right: 0.5px solid lightgrey;
+	border-left: 0.5px solid lightgrey;
+}
+#row-1 img{
+	width: 17px;
+}
+@media screen and (max-width: 768px){
+	#mainHeader .navleft{
+		border-bottom: 0.5px solid lightgrey;
+	}
+}
+#row-1 ul li a{
+	font-size: 12px;
+	color: #000;
+	font-weight: 600;
+}
+#row-1 a:hover{
+  background-color: lightgrey;
+	color: black;
+}
+h3 .ABAS{
+	font-family: sans-serif;
+	letter-spacing: -1px;
+}
+#menu-2{
+	background-color: #0054A6;
+}
+#row-2 a{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+}
+#row-2 .nav-item:hover,
+#row-2 .active{
+	background-color: red;
+}
+#row-2 .navbar-toggler{
+	border-color: #fff;
+}
+#row-2 .dropdown:hover .dropdown-menu{
+	display: block;
+}
+#row-2 .dropdown-menu{
+	background-color: #0054A6;
+	border: 2px solid red;
+	margin-top: 0;
+}
+#row-2 .dropdown-item:hover{
+	background-color: red;
+	border-radius: 25px;
+}
+/*----------CAROUSEL----------
+  ----------------------------*/
+.carousel-inner img{
+  width: 100%;
+	position: relative;
+}
+/*----------SINGLE BUTTON----------
+  ---------------------------------*/
+#btn-1{
+	background-color: #ED1C24;
+	color: #fff;
+	font-weight: 600;
+	padding: 5px 15px;
+}
+#btn-1:hover{
+	background-color: #0054A6;
+	color: #fff;
+}
+/*----------JUMBOTRON----------
+  -----------------------------*/
+.jumbotron .box{
+	background-color: #0054A6;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	position: relative;
+}
+.box .fa{
+	position: absolute;
+	padding-top: 20px;
+	font-size: 30px;
+}
+/*.nav-item .sub-box{
+	position: relative;
+	margin-left: 25px;
+}*/
+.jumbotron .box:hover{
+	border: 2px solid #ED1C24;
+	background-color: lightgrey;
+	color: red;
+}
+@media screen and (max-width: 768px){
+	.jumbotron .box{
+		position: relative;
+		margin-top: 10px;
+		margin-left: 110px;
+		justify-items: center;
+		align-items: center;
+	}
+	.jumbotron p{
+		text-align: center;
+	}
+}
+/*----------MULTIPLE BUTTON----------
+  -----------------------------------*/
+#multiple-button .large-box{
+	height: 70px;
+	border-radius: 10px;
+	background-color: #0054A6;
+}
+#multiple-button .large-box .box-1{
+	background-color: lightgrey;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 20px;
+	top: 10px;
+}
+#multiple-button .box-1 i{
+	position: absolute;
+	left: 17px;
+	top: 14px;
+	font-size: 20px;
+}
+#multiple-button .box-1:hover{
+	border: 2px solid lightgrey;
+	background-color: #ED1C24;
+	color: #fff;
+}
+#multiple-button p{
+	position: relative;
+	left: 30px;
+	top: 5px;
+	font-size: 20px;
+}
+/*---------FOOTER----------
+  -------------------------*/
+footer .container-fluid{
+	background-color: #000;
+}
+footer .p-1{
+	font-size: 13px;
+	letter-spacing: -0.5px;
+}
+footer .p-2{
+	position: relative;
+	top: -27px;
+	font-size: 13px;
+	letter-spacing: -0.5px;
+}
+footer .p-3{
+	position: relative;
+	top: -50px;
+	font-size: 13px;
+	letter-spacing: -0.5px;
+}
+footer .row-1{
+	position: relative;
+	bottom: 60px;
+}
+footer .nav-link{
+	color: grey;
+	font-size: 13px;
+	font-weight: 600;
+}
+@media screen and (min-width: 768px){
+footer .nav-link-1,
+footer .nav-link-2,
+footer .nav-link-3{
+	border-right: 1px solid grey;	
+}
+}
+/*----------ABOUT CAROUSEL----------
+  ----------------------------------*/
+.carousel .img-fluid{
+	width: 100%;
+	position: relative;
+	height: 150px;
+}
+/*----------TERMS & CONDITIONS---------
+  -------------------------------------*/
+#terms-condition a p{
+	margin-bottom: -5px;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
